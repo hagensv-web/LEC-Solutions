@@ -9,7 +9,9 @@ export default function Listing({ product }: { product: Product }) {
                 <h3>{product.name}</h3>
                 <p className={styles.price}>${product.price}</p>
                 <ul>
-                    {product.contents.map((value) => <li>{value}</li>)}
+                    {product.contents.map(
+                        (value,index) => <li key={index}>{value}</li>)
+                    }
                 </ul>
                 <button>Add to Cart</button>
             </div>
