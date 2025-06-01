@@ -28,7 +28,9 @@ export default function Products() {
             <Container>
                 <Row>
             {products.map((product) => (
-                <Col md={6} key={product.id}><Listing key={product.id} product={product} /></Col>
+                <Col md={6} key={product.id}>
+                    <Listing product={product} />
+                </Col>
             ))}
                 </Row>
             </Container>
