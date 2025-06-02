@@ -1,8 +1,14 @@
 :root {
-  --background: #ffffff;
+  --background: #ededed;
   --foreground: #171717;
+
   --primary: #004E7E;
   --secondary: #192857;
+
+  --button-background: var(--primary); /* Example button background */
+  --button-foreground: var(--background); /* Example button text color */
+
+  --price-color: #b62100; /* Example price color */
 }
 
 html,
@@ -29,6 +35,12 @@ main {
   margin: 8px 5%;
 }
 
+.center {
+  text-align: center;
+  display: block;
+  margin: 25px auto;
+}
+
 h1 {
   margin-top: 80px;
   text-align: center;
@@ -40,8 +52,8 @@ h1, h2, .emphasis {
 }
 
 button {
-  color: #fff;
-  background: var(--primary);
+  color: var(--button-foreground);
+  background: var(--button-background);
   border-radius: 10px;
   padding: 5px 8px;
   border: none;
