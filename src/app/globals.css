@@ -5,8 +5,11 @@
   --primary: #004E7E;
   --secondary: #192857;
 
-  --button-background: var(--primary); /* Example button background */
-  --button-foreground: var(--background); /* Example button text color */
+  --button-background: var(--primary);
+  --button-foreground: var(--background);
+
+  --purchase-button-background: #ffcc00;
+  --purchase-button-foreground: #000000;
 
   --price-color: #b62100; /* Example price color */
 }
