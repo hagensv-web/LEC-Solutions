@@ -3,15 +3,18 @@
     img {
         float: left;
         height: 100%;
+        margin-right: 20px;
+
     }
 
     div {
         float: left;
+        width: 80%;
     }
     
     .price {
         font-size: 1.2em;
         font-weight: bold;
-        color: var(--primary);
+        color: var(--price-color);
     }
 }
