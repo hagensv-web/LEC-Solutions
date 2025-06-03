@@ -5,8 +5,11 @@
   --primary: #004E7E;
   --secondary: #192857;
 
-  --button-background: var(--primary); /* Example button background */
-  --button-foreground: var(--background); /* Example button text color */
+  --button-background: var(--primary);
+  --button-foreground: var(--background);
+
+  --purchase-button-background: #ffcc00;
+  --purchase-button-foreground: #000000;
 
   --price-color: #b62100; /* Example price color */
 }
@@ -51,10 +54,10 @@ h1, h2, .emphasis {
   font-weight: bold;
 }
 
-button {
+button, input[type="submit"] {
   color: var(--button-foreground);
   background: var(--button-background);
   border-radius: 10px;
-  padding: 5px 8px;
+  padding: 5px 16px;
   border: none;
 }

@@ -3,3 +3,9 @@
     width: 100%;
     padding: 1px 5px;
 }
+
+.contactForm input[type="submit"] {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
