@@ -1,0 +1,23 @@
+.footer div {
+    margin-bottom: 10px;
+}
+
+.footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer a {
+    color: var(--foreground-color)
+}
+
+.footer a:hover {
+    text-decoration: none;
+}

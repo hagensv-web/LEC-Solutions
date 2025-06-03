@@ -1,41 +1,42 @@
+import publicAsset from "@/types/public_asset";
 import { Col, Container, Row } from "react-bootstrap";
+import styles from "./Footer.module.css"
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className={styles.footer}>
         <Container>
             <Row className="justify-content-center">
-                <Col xs={2}>
-                    <img src="/images/buyveteran-logo.png" />
+                <Col xs={6}>
+                    <img src={publicAsset("/images/buyveteran-logo.png")} />
                 </Col>
             </Row>
-            <Row class="row justify-content-center">
-                <Col xs={2}>
-                    <img src="/images/aiha.png" className="img-responsive center-block" />
+            <Row className="justify-content-center">
+                <Col xs={6} lg={4}>
+                    <img src={publicAsset("/images/organization/aiha.png")} className="img-responsive center-block" />
                 </Col>
-                <Col xs={1}>
-                    <img src="/images/navoba_logo.png" className="img-responsive center-block" />
+                <Col xs={3} lg={2}>
+                    <img src={publicAsset("/images/organization/navoba_logo.png")} className="img-responsive center-block" />
                 </Col>
-                <Col xs={1}>
-                    <img src="/images/wen.png" className="img-responsive center-block" />
+                <Col xs={3} lg={2}>
+                    <img src={publicAsset("/images/organization/wen.png")} className="img-responsive center-block" />
                 </Col>
-                <Col xs={1}>
-                    <img src="/images/paacc.png" className="img-responsive center-block" />
+                <Col xs={3} lg={2}>
+                    <img src={publicAsset("/images/organization/paacc.png")} className="img-responsive center-block" />
                 </Col>
-                <Col xs={1}>
-                    <img src="/images/PIOGA_LOGO.png" className="img-responsive center-block" />
+                <Col xs={3} lg={2}>
+                    <img src={publicAsset("/images/organization/PIOGA_LOGO.png")} className="img-responsive center-block" />
                 </Col>
-                <Col xs={1}>
-                    <img src="/images/SOUTHPOINT_CHAMBER_LOGO.png" className="img-responsive center-block" />
+                <Col xs={3} lg={2}>
+                    <img src={publicAsset("/images/organization/SOUTHPOINT_CHAMBER_LOGO.png")} className="img-responsive center-block" />
                 </Col>
-                <Col xs={1}>
-                    <img src="/images/SOOGA-logo-240.png" className="img-responsive center-block" />
+                <Col xs={3} lg={2}>
+                    <img src={publicAsset("/images/organization/SOOGA-logo-240.png")} className="img-responsive center-block" />
                 </Col>
             </Row>
 
         </Container>
-        <p>© 2025 LEC Solutions Inc.</p>
-        <p>All rights reserved.</p>
+        <p>© 2025 LEC Solutions Inc. All rights reserved.</p>
         <p>Designed and maintained by <a href={"https://hagensv.github.io"}>Samuel Hagen</a></p>
     </footer>
     );
