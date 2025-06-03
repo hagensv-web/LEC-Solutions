@@ -1,10 +1,11 @@
 import { Product } from "@/types/product"
 import styles from "./ProductListing.module.css"
+import Image from "next/image"
 
 export default function Listing({ product }: { product: Product }) {
     return (
         <div className={styles.product}>
-            <img src="Image Source"/>
+            <Image src={product.image} alt={`Image of ${product.name}`} width={50} height={100}/>
             <div>
                 <h3>{product.name}</h3>
                 <p className={styles.price}>${product.price}</p>
