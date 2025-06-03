@@ -22,13 +22,7 @@ export default function Footer() {
                     <img src={publicAsset("/images/organization/wen.png")} className="img-responsive center-block" />
                 </Col>
                 <Col xs={3} lg={2}>
-                    <img src={publicAsset("/images/organization/paacc.png")} className="img-responsive center-block" />
-                </Col>
-                <Col xs={3} lg={2}>
                     <img src={publicAsset("/images/organization/PIOGA_LOGO.png")} className="img-responsive center-block" />
-                </Col>
-                <Col xs={3} lg={2}>
-                    <img src={publicAsset("/images/organization/SOUTHPOINT_CHAMBER_LOGO.png")} className="img-responsive center-block" />
                 </Col>
                 <Col xs={3} lg={2}>
                     <img src={publicAsset("/images/organization/SOOGA-logo-240.png")} className="img-responsive center-block" />
