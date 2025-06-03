@@ -1,3 +1,5 @@
+'use client';
+
 import getProducts from "@/api/products";
 import { Product } from "@/types/product";
 import { useEffect, useState } from "react";
