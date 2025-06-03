@@ -54,7 +54,7 @@ h1, h2, .emphasis {
   font-weight: bold;
 }
 
-button {
+button, input[type="submit"] {
   color: var(--button-foreground);
   background: var(--button-background);
   border-radius: 10px;
