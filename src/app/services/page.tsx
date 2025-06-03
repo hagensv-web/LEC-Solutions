@@ -1,5 +1,14 @@
 import { Container } from "react-bootstrap"
 
+export const metadata = {
+  title: "Services • LEC Solutions",
+  description: "LEC Solutions offers calibration services for all major gas detection manufacturers, ensuring your devices are cleaned and calibrated to manufacturer specifications.",
+  openGraph: {
+    title: "LEC Solutions Services",
+    description: "LEC Solutions offers calibration services for all major gas detection manufacturers, ensuring your devices are cleaned and calibrated to manufacturer specifications.",
+  },
+}
+
 export default function Services() {
   return (
     <main>

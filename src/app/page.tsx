@@ -1,6 +1,23 @@
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
+export const metadata = {
+  title: "LEC Solutions",
+  description: "LEC Solutions provides life-saving gas detection instruments, calibration gas, and accessories for the Oil and Gas Industry and Industrial Services Arena throughout the United States.",
+  openGraph: {
+    title: "LEC Solutions",
+    description: "LEC Solutions provides life-saving gas detection instruments, calibration gas, and accessories for the Oil and Gas Industry and Industrial Services Arena throughout the United States.",
+    images: [
+      {
+        url: "/Group_Photo.png",
+        width: 500,
+        height: 300,
+        alt: "LEC Solutions Calibration Gas",
+      },
+    ],
+  },
+}
+
 export default function Home() {
   return (
     <main>

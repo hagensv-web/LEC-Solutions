@@ -6,6 +6,15 @@ import { Product } from "@/types/product";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
+export const metadata = {
+    title: "Products • LEC Solutions",
+    description: "Explore our range of high-quality calibration gas products designed for the Oil and Gas Industry and Industrial Services Arena.",
+    openGraph: {
+        title: "LEC Solutions Products",
+        description: "Explore our range of high-quality calibration gas products designed for the Oil and Gas Industry and Industrial Services Arena.",
+    },
+}
+
 export default function Products() {
     const [products, setProducts] = useState<Product[]>([]);
 
