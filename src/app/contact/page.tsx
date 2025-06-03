@@ -1,6 +1,15 @@
 import ContactForm from "@/components/ContactForm/ContactForm";
 import { Col, Container, Row } from "react-bootstrap"
 
+export const metadata = {
+  title: "Contact • LEC Solutions",
+  description: "Get in touch with LEC Solutions for any inquiries or support.",
+  openGraph: {
+    title: "Contact LEC Solutions",
+    description: "Get in touch with LEC Solutions for any inquiries or support.",
+  },
+}
+
 export default function Contact() {
   return (
     <main>
