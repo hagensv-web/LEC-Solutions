@@ -1,5 +1,4 @@
 import publicAsset from "@/types/public_asset";
-import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
 export const metadata = {
