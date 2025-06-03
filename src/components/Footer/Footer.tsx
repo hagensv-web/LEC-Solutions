@@ -8,24 +8,24 @@ export default function Footer() {
         <Container>
             <Row className="justify-content-center">
                 <Col xs={6}>
-                    <img src={publicAsset("/images/buyveteran-logo.png")} />
+                    <img src={publicAsset("/images/buyveteran-logo.png")} alt="Buy Veteran"/>
                 </Col>
             </Row>
             <Row className="justify-content-center">
                 <Col xs={6} lg={4}>
-                    <img src={publicAsset("/images/organization/aiha.png")} className="img-responsive center-block" />
+                    <img src={publicAsset("/images/organization/aiha.png")} alt="Member Pittsburgh AIHA" className="img-responsive center-block" />
                 </Col>
                 <Col xs={3} lg={2}>
-                    <img src={publicAsset("/images/organization/navoba_logo.png")} className="img-responsive center-block" />
+                    <img src={publicAsset("/images/organization/navoba_logo.png")} alt="NaVOBA"className="img-responsive center-block" />
                 </Col>
                 <Col xs={3} lg={2}>
-                    <img src={publicAsset("/images/organization/wen.png")} className="img-responsive center-block" />
+                    <img src={publicAsset("/images/organization/wen.png")} alt="Women's Energy Network" className="img-responsive center-block" />
                 </Col>
                 <Col xs={3} lg={2}>
-                    <img src={publicAsset("/images/organization/PIOGA_LOGO.png")} className="img-responsive center-block" />
+                    <img src={publicAsset("/images/organization/PIOGA_LOGO.png")} alt="PIOGA" className="img-responsive center-block" />
                 </Col>
                 <Col xs={3} lg={2}>
-                    <img src={publicAsset("/images/organization/SOOGA-logo-240.png")} className="img-responsive center-block" />
+                    <img src={publicAsset("/images/organization/SOOGA-logo-240.png")} alt="Southeastern Ohio Oil & Gas Association" className="img-responsive center-block" />
                 </Col>
             </Row>
 
