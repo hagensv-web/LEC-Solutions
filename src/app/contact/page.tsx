@@ -15,7 +15,7 @@ export default function Contact() {
     <main>
         <h1>Contact Us</h1>
         <Container>
-        <Row>
+        <Row className="gy-5">
             <Col md={8}>
                 <ContactForm />
             </Col>

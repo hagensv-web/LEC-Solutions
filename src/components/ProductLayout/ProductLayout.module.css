@@ -1,0 +1,29 @@
+.product_container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+}
+
+.product_container:last-child {
+    border-right: none;
+}
+
+@media (width >= 992px){
+    .product_container {
+        border-right: 2px solid gray;
+    }
+
+    .product_container:nth-child(2n){
+        border-right: none;
+    }
+}
+
+@media (width >= 1400px){
+    .product_container:nth-child(2n){
+        border-right: 2px solid gray;
+    }
+
+    .product_container:nth-child(3n){
+        border-right: none;
+    }
+}

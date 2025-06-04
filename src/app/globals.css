@@ -38,8 +38,11 @@ main {
   margin: 8px 5%;
 }
 
-.center {
+.center-text {
   text-align: center;
+}
+
+.center {
   display: block;
   margin: 25px auto;
 }
