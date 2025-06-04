@@ -13,14 +13,14 @@ export default async function getProducts(): Promise<Product[]> {
             name: "116ES-411",
             price: 360.00,
             contents: ["100 PPM Carbon Monoxide", "25 PPM Hydrogen Sulfide", "25% LEL Pentane", "19% Oxygen", "Nitrogen"],
-            image: "/images/product/116ES.png"
+            image: "/images/product/116ES.jpg"
         },
         {
             id: 2,
             name: "116ES-421",
             price: 360.00,
             contents: ["116 Liter Ecosmart Cylinder", "100 PPM Carbon Monoxide", "50% LEL Methane", "15 PPM Hydrogen Sulfide", "18% Oxygen", "Nitrogen"],
-            image: "/images/product/116ES.png"
+            image: "/images/product/116ES.jpg"
         },
         {
             id: 3,
