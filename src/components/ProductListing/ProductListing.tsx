@@ -1,6 +1,5 @@
 import { Product } from "@/types/product"
 import styles from "./ProductListing.module.css"
-import Image from "next/image"
 import publicAsset from "@/types/public_asset"
 
 export default function Listing({ product }: { product: Product }) {
